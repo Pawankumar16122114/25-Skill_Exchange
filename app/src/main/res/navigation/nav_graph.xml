@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.skillexchange.app.ui.home.HomeFragment"
+        android:label="Skill Board"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_home_to_chat"
+            app:destination="@id/chatFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/postNeedFragment"
+        android:name="com.skillexchange.app.ui.post.PostNeedFragment"
+        android:label="Post a Need"
+        tools:layout="@layout/fragment_post_need" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.skillexchange.app.ui.profile.ProfileFragment"
+        android:label="My Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.skillexchange.app.ui.chat.ChatFragment"
+        android:label="Swap Chat"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="swapId"
+            app:argType="string" />
+        <argument
+            android:name="otherUserName"
+            app:argType="string" />
+        <argument
+            android:name="postTitle"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="saffron">#FF9800</color>
+    <color name="saffron_dark">#E65100</color>
+    <color name="saffron_light">#FFE0B2</color>
+    <color name="saffron_medium">#FB8C00</color>
+
+    <!-- Green (Nature/Growth) -->
+    <color name="forest_green">#2E7D32</color>
+    <color name="forest_green_dark">#1B5E20</color>
+    <color name="forest_green_light">#A5D6A7</color>
+    <color name="green_accent">#43A047</color>
+
+    <!-- Background / Surface -->
+    <color name="cream_bg">#FFFBF2</color>
+    <color name="cream_surface">#FFFFFF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_bg_warm">#FFF8ED</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#4A4A68</color>
+    <color name="text_hint">#8F8F9D</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_saffron">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="status_open">#4CAF50</color>
+    <color name="status_in_progress">#FF9800</color>
+    <color name="status_completed">#2196F3</color>
+    <color name="status_cancelled">#F44336</color>
+
+    <!-- Trust Score Stars -->
+    <color name="star_filled">#FFC107</color>
+    <color name="star_empty">#E0E0E0</color>
+
+    <!-- Bottom Nav -->
+    <color name="nav_selected">#FF9800</color>
+    <color name="nav_unselected">#9E9E9E</color>
+
+    <!-- Divider / Borders -->
+    <color name="divider">#F0E6D3</color>
+    <color name="border_light">#FFE0B2</color>
+
+    <!-- Shimmer -->
+    <color name="shimmer_base">#F5F5F5</color>
+    <color name="shimmer_highlight">#EBEBEB</color>
+
+    <!-- Chat Bubbles -->
+    <color name="bubble_sent">#FF9800</color>
+    <color name="bubble_received">#F5F5F5</color>
+    <color name="bubble_sent_text">#FFFFFF</color>
+    <color name="bubble_received_text">#1A1A2E</color>
+
+    <!-- Skill Chips -->
+    <color name="chip_bg">#FFF3E0</color>
+    <color name="chip_stroke">#FFB74D</color>
+    <color name="chip_text">#E65100</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FF8C00</color>
+    <color name="gradient_end">#FF5722</color>
+
+    <!-- Overlay -->
+    <color name="overlay_dark">#80000000</color>
+    <color name="overlay_light">#40FFFFFF</color>
+
+    <!-- White/Black -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Skill Exchange</string>
+    <string name="app_tagline">Barter Skills. Build Community.</string>
+
+    <!-- Auth -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dont_have_account">Don\'t have an account? Register</string>
+    <string name="already_have_account">Already have an account? Login</string>
+    <string name="login_failed">Login failed. Check your credentials.</string>
+    <string name="register_failed">Registration failed. Try again.</string>
+    <string name="passwords_dont_match">Passwords do not match.</string>
+
+    <!-- Home -->
+    <string name="skill_board">Skill Board</string>
+    <string name="all_skills">All Skills</string>
+    <string name="filter_by_skill">Filter by Skill</string>
+    <string name="no_posts_found">No posts found.\nBe the first to post a need!</string>
+    <string name="post_a_need">Post a Need</string>
+    <string name="need_help_with">Need help with…</string>
+
+    <!-- Post -->
+    <string name="post_need_title">Post Your Need</string>
+    <string name="what_do_you_need">What do you need help with?</string>
+    <string name="describe_your_need">Describe your need in detail…</string>
+    <string name="skill_required">Skill Required</string>
+    <string name="select_skill">Select Required Skill</string>
+    <string name="submit_post">Submit Post</string>
+    <string name="post_published">Your need has been posted!</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="my_skills">My Skills</string>
+    <string name="add_skill">+ Add Skill</string>
+    <string name="skill_points">Skill Points</string>
+    <string name="trust_score">Trust Score</string>
+    <string name="completed_swaps">Completed Swaps</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="bio">About Me</string>
+    <string name="logout">Logout</string>
+
+    <!-- Swap Offer -->
+    <string name="make_offer">Make a Swap Offer</string>
+    <string name="offer_skill">I\'ll offer my skill</string>
+    <string name="hours_to_offer">Hours to Offer</string>
+    <string name="send_offer">Send Offer</string>
+    <string name="offer_sent">Offer sent successfully!</string>
+    <string name="accept_offer">Accept</string>
+    <string name="decline_offer">Decline</string>
+    <string name="confirm_swap">Confirm Swap Completion</string>
+    <string name="swap_confirmed">Swap confirmed! Trust Score updated. 🎉</string>
+
+    <!-- Chat -->
+    <string name="type_message">Type a message…</string>
+    <string name="send">Send</string>
+    <string name="negotiating">Negotiating Swap</string>
+
+    <!-- Skills List -->
+    <string-array name="skills_list">
+        <!-- Trades -->
+        <item>Plumber</item>
+        <item>Electrician</item>
+        <item>Carpenter</item>
+        <item>Mason</item>
+        <item>Welder</item>
+        <item>Painter</item>
+        <item>Mechanic</item>
+        <item>Blacksmith</item>
+        <item>Potter</item>
+        <item>Tailor</item>
+        <item>Cook</item>
+        <!-- Engineering -->
+        <item>Software Engineer</item>
+        <item>Civil Engineer</item>
+        <item>Electrical Engineer</item>
+        <item>Mechanical Engineer</item>
+        <!-- Education / Teaching -->
+        <item>Teacher</item>
+        <item>Math Tutor</item>
+        <item>Language Teacher</item>
+        <item>Music Teacher</item>
+        <!-- Students / Academic Support -->
+        <item>Peer Tutor</item>
+        <item>Note Taker</item>
+        <item>Study Group Leader</item>
+        <item>Homework Help</item>
+        <!-- Other Professions -->
+        <item>Farmer</item>
+        <item>Driver</item>
+        <item>Nurse</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Status -->
+    <string name="status_open">Open</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+
+    <!-- General -->
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="success">Success!</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="hours">hrs</string>
+    <string name="points">pts</string>
+    <string name="by">by</string>
+    <string name="posted">Posted</string>
+</resources>
