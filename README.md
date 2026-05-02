@@ -496,39 +496,6 @@ This project is licensed under the **MIT License** - See the LICENSE file for de
 
 ---
 
-<style>
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(-20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes pulse {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
-}
-</style>
-
 *Last Updated: May 2, 2026 | Maintained with ❤️*
 * **Lottie Animations**
 * **Shimmer Loading**
