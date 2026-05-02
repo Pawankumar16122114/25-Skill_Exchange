@@ -483,7 +483,9 @@ This project is licensed under the **MIT License** - See the LICENSE file for de
 
 <h3>⭐ Found this helpful? Give us a star! ⭐</h3>
 
+
 ```
+
 ╔══════════════════════════════════════════╗
 ║   Built with Passion for Communities     ║
 ║   Empowering Rural Technicians Since 2024║
