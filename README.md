@@ -265,84 +265,105 @@ db.collection("skills").add(newSkill)
 
 ---
 
-## 📱 App User Interface & Navigation
+## 📱 App Screenshots & User Interface
 
 ### 🎨 Visual Design System
 
-The Skill Exchange app features a modern, user-friendly interface with the following design elements:
+The Skill Exchange app features a modern, user-friendly interface with intuitive navigation and beautiful design.
+
+#### **App Screens Overview**
+
+<div align="center">
+
+| **Home Screen** | **Post Screen** | **Skill Details** |
+|:---:|:---:|:---:|
+| ![Home Screen](assets/images/home.png) | ![Post Screen](assets/images/post.png) | ![Skill Details](assets/images/skilld.png) |
+| Browse & discover skills in your community | Post your skill needs easily | View detailed requirements |
+
+</div>
+
+---
 
 #### **Navigation Architecture**
+
+The app uses a bottom navigation bar with 4 main sections:
+
 ```
 ┌─────────────────────────────────┐
 │   Skill Exchange App            │
 ├─────────────────────────────────┤
 │                                 │
-│  ┌─ Home (Skill Board)         │
-│  │  ┌─ Search & Filter         │
-│  │  ├─ Browse Listings         │
-│  │  └─ View Offers             │
+│  ┌─ 🏠 Home (Skill Board)       │
+│  │  ├─ Search functionality    │
+│  │  ├─ Filter by category      │
+│  │  ├─ Browse skill listings   │
+│  │  └─ View user offers        │
 │  │                              │
-│  ├─ Post (Create Need)         │
-│  │  ├─ Select Skill Category   │
-│  │  ├─ Add Description         │
-│  │  └─ Submit Request          │
+│  ├─ ➕ Post (Create Needs)      │
+│  │  ├─ Select skill category   │
+│  │  ├─ Write description       │
+│  │  ├─ Add helpful tips        │
+│  │  └─ Submit request          │
 │  │                              │
-│  ├─ Chat (Messaging)           │
-│  │  ├─ Conversations List      │
-│  │  ├─ Real-time Chat         │
-│  │  └─ Notifications          │
+│  ├─ 💬 Chat (Messaging)        │
+│  │  ├─ View conversations      │
+│  │  ├─ Real-time messaging     │
+│  │  ├─ User avatars           │
+│  │  └─ Message notifications   │
 │  │                              │
-│  └─ Profile (User Account)     │
-│     ├─ User Information        │
-│     ├─ Skill Ratings          │
-│     └─ Account Settings        │
+│  └─ 👤 Profile (User Account)  │
+│     ├─ Profile information     │
+│     ├─ Skill ratings & reviews │
+│     ├─ Skill points tracker    │
+│     └─ Account settings        │
 │                                 │
 ├─────────────────────────────────┤
-│  🏠 Home | ➕ Post | 💬 Chat | 👤 │
+│  🏠 Home | ➕ Post | 💬 Chat | 👤│
 └─────────────────────────────────┘
 ```
 
 ---
 
-### 🎯 Key Screen Features
+### 🎯 Key Features by Screen
 
-#### **1. Home - Skill Board**
-- 🔍 Full-text search functionality
-- 🏷️ Category-based filtering (Plumber, Electrician, Carpenter, etc.)
-- 📝 Detailed skill listings with descriptions
-- 👤 User information and reputation badges
-- ⏰ Time-stamped postings
-- 🟢 Live status indicators
-- 💬 One-tap messaging access
+#### **1. 🏠 Home - Skill Board**
+- 🔍 **Full-text Search** - Find skills by name or description
+- 🏷️ **Category Filters** - Plumber, Electrician, Carpenter, Mason, Welder, Painter, Mechanic
+- 📝 **Detailed Listings** - See complete skill requirements
+- 👤 **User Profiles** - View poster info and reputation
+- ⏰ **Timestamps** - Know when skills were posted
+- 🟢 **Status Badges** - "OPEN" status for active postings
+- 💬 **Quick Messaging** - Message users directly from listings
 
-#### **2. Post - Create Skill Needs**
-- 📋 Skill dropdown menu with 10+ categories
-- 📝 Description text field for detailed explanations
-- 💡 Helpful tips and guidelines
-- 🔵 One-tap post submission
-- ✅ Success confirmation
+#### **2. ➕ Post - Create Skill Needs**
+- 📋 **Skill Dropdown** - Choose from predefined categories
+- 📝 **Rich Descriptions** - Explain your skill needs in detail
+- 💡 **Helpful Tips** - Guidance for writing effective posts
+- 🔵 **One-tap Submit** - Easy posting with success confirmation
+- ✅ **Instant Publishing** - Your post goes live immediately
 
-#### **3. Chat - Real-time Messaging**
-- 💬 Real-time message synchronization
-- 👤 User avatars with initials
-- 📨 Message timestamps
-- 🔔 Notification support
-- 🎨 Chat bubble design (sent vs. received)
+#### **3. 💬 Chat - Real-time Messaging**
+- 💬 **Real-time Sync** - Messages appear instantly
+- 👤 **User Avatars** - Initials-based profile pictures
+- 📨 **Timestamps** - Know exactly when messages were sent
+- 🔔 **Notifications** - Get alerted for new messages
+- 🎨 **Chat Bubbles** - Distinct sent vs. received message styling
+- 📱 **Conversation List** - Manage multiple chats easily
 
-#### **4. Profile - User Account**
-- 👤 User profile information
-- ⭐ Skill ratings & reviews
-- 📊 Skill points/credits
-- 🔧 Account settings
-- 🚪 Sign out option
+#### **4. 👤 Profile - User Account**
+- 👤 **Profile Info** - Name, contact, skills
+- ⭐ **Ratings & Reviews** - Community reputation
+- 📊 **Skill Points** - Track exchange credits
+- 🔧 **Settings** - Notification & privacy preferences
+- 🚪 **Sign Out** - Secure logout option
 
 ---
 
-### 🎨 Design Assets
+### 🎨 Design Assets & Components
 
-The app uses the following visual resources:
+The app uses professional vector graphics and Material Design 3:
 
-**Icons Used:**
+**Navigation Icons:**
 - 🏠 `ic_home.xml` - Home/Board navigation
 - ➕ `ic_add_circle.xml` - Create/Post action
 - 💬 `ic_chat.xml` - Messaging feature
@@ -354,11 +375,11 @@ The app uses the following visual resources:
 - 🌱 `ic_empty_leaf.xml` - Empty state indicator
 
 **Visual Components:**
-- 📦 Gradient backgrounds for splash and branding
-- 🎯 Skill chip backgrounds for category tags
-- 💬 Bubble designs for messaging (sent/received)
-- 🎯 Input field backgrounds for forms
-- 🎬 Animation transitions (slide, fade, fall-down effects)
+- 📦 **Gradient Backgrounds** - Saffron gradient for splash and branding
+- 🎯 **Skill Chips** - Category tag styling
+- 💬 **Message Bubbles** - Sent vs. received chat styling
+- 🎯 **Input Fields** - Form background styling
+- 🎬 **Animations** - Smooth transitions and interactions
 
 **Color Scheme:**
 - Primary: **Saffron Orange** (#FF9800) - Action buttons & branding
@@ -397,48 +418,71 @@ All screens are optimized for:
 
 ---
 
-### 📦 Resource Organization
+### 📦 Project Structure & Resources
 
-All visual assets are organized in the app's resource folder structure:
+All visual assets and resources are organized in the project:
 
 ```
-app/src/main/res/
-├── drawable/              # Vector drawables & icons
-│   ├── ic_*.xml          # Navigation & UI icons
-│   ├── bg_*.xml          # Background shapes & gradients
-│   └── ic_launcher_*.xml # App launcher icons
+skill_Exchange/
+├── 📁 assets/
+│   └── images/
+│       ├── home.png              # Home screen screenshot
+│       ├── post.png              # Post creation screen
+│       ├── skilld.png            # Skill details view
+│       └── Screenshot *.png      # Additional screens
 │
-├── mipmap-*/             # Launcher icons (multi-density)
-│   ├── ic_launcher.webp
-│   ├── ic_launcher_foreground.webp
-│   └── ic_launcher_round.webp
+├── 📱 app/src/main/res/
+│   ├── drawable/                 # Vector drawables & icons
+│   │   ├── ic_*.xml             # Navigation & UI icons
+│   │   ├── bg_*.xml             # Background shapes & gradients
+│   │   └── ic_launcher_*.xml    # App launcher icons
+│   │
+│   ├── mipmap-*/                # Launcher icons (multi-density)
+│   │   ├── ic_launcher.webp
+│   │   ├── ic_launcher_foreground.webp
+│   │   └── ic_launcher_round.webp
+│   │
+│   ├── layout/                   # Screen layouts
+│   │   ├── activity_main.xml
+│   │   ├── fragment_home.xml
+│   │   ├── fragment_post_need.xml
+│   │   ├── fragment_chat.xml
+│   │   ├── fragment_profile.xml
+│   │   └── item_*.xml           # List item layouts
+│   │
+│   ├── anim/                     # Animation definitions
+│   │   ├── slide_in_*.xml
+│   │   ├── fade_*.xml
+│   │   └── item_animation_*.xml
+│   │
+│   ├── values/                   # Colors, strings, dimensions
+│   │   ├── colors.xml
+│   │   ├── strings.xml
+│   │   ├── dimens.xml
+│   │   └── themes.xml
+│   │
+│   └── navigation/               # Navigation graph
+│       └── nav_graph.xml
 │
-├── layout/               # Screen layouts
-│   ├── activity_main.xml
-│   ├── fragment_home.xml
-│   ├── fragment_post_need.xml
-│   ├── fragment_chat.xml
-│   ├── fragment_profile.xml
-│   └── item_*.xml        # List item layouts
-│
-├── anim/                 # Animation definitions
-│   ├── slide_in_*.xml
-│   ├── fade_*.xml
-│   └── item_animation_*.xml
-│
-├── values/               # Colors, strings, dimensions
-│   ├── colors.xml
-│   ├── strings.xml
-│   ├── dimens.xml
-│   └── themes.xml
-│
-└── navigation/           # Navigation graph
-    └── nav_graph.xml
+└── 📘 README.md                 # Documentation
 ```
 
 ---
 
-### 🔧 Development with Project Assets
+### 🖼️ Image Assets
+
+The project includes professionally designed screenshots:
+
+- **home.png** - Home screen showing skill board with search and filters
+- **post.png** - Post creation screen for submitting skill needs
+- **skilld.png** - Skill details view with user information
+- **Screenshot 2026-05-02 153430.png** - System dialogs and interactions
+
+These images are included in the `/assets/images/` folder for easy reference and documentation.
+
+---
+
+### 🔧 Using Project Assets in Development
 
 When building features, developers use the project's built-in resources:
 
@@ -473,6 +517,21 @@ When building features, developers use the project's built-in resources:
 
 <!-- Skill chip styling -->
 <item android:drawable="@drawable/bg_skill_chip" />
+```
+
+**Example: Handling Animations in Code**
+```kotlin
+// Fragment transitions with animations
+val transaction = supportFragmentManager.beginTransaction()
+transaction.setCustomAnimations(
+    R.anim.slide_in_right,
+    R.anim.slide_out_left,
+    R.anim.slide_in_left,
+    R.anim.slide_out_right
+)
+transaction.replace(R.id.fragmentContainer, newFragment)
+transaction.addToBackStack(null)
+transaction.commit()
 ```
 
 ---
