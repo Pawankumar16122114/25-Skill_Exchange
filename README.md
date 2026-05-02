@@ -293,32 +293,32 @@ The app uses a bottom navigation bar with 4 main sections:
 │   Skill Exchange App            │
 ├─────────────────────────────────┤
 │                                 │
-│  ┌─ 🏠 Home (Skill Board)       │
+│  ┌─ 🏠 Home (Skill Board)      │
 │  │  ├─ Search functionality    │
 │  │  ├─ Filter by category      │
 │  │  ├─ Browse skill listings   │
 │  │  └─ View user offers        │
+│  │                             │
+│  ├─ ➕ Post (Create Needs)     │
+│  │  ├─ Select skill category    │
+│  │  ├─ Write description        │
+│  │  ├─ Add helpful tips         │
+│  │  └─ Submit request           │
 │  │                              │
-│  ├─ ➕ Post (Create Needs)      │
-│  │  ├─ Select skill category   │
-│  │  ├─ Write description       │
-│  │  ├─ Add helpful tips        │
-│  │  └─ Submit request          │
-│  │                              │
-│  ├─ 💬 Chat (Messaging)        │
-│  │  ├─ View conversations      │
-│  │  ├─ Real-time messaging     │
-│  │  ├─ User avatars           │
-│  │  └─ Message notifications   │
+│  ├─ 💬 Chat (Messaging)         │
+│  │  ├─ View conversations       │
+│  │  ├─ Real-time messaging      │
+│  │  ├─ User avatars             │
+│  │  └─ Message notifications    │
 │  │                              │
 │  └─ 👤 Profile (User Account)  │
-│     ├─ Profile information     │
-│     ├─ Skill ratings & reviews │
-│     ├─ Skill points tracker    │
-│     └─ Account settings        │
+│     ├─ Profile information      │
+│     ├─ Skill ratings & reviews  │
+│     ├─ Skill points tracker     │
+│     └─ Account settings         │
 │                                 │
 ├─────────────────────────────────┤
-│  🏠 Home | ➕ Post | 💬 Chat | 👤│
+│  🏠 Home|➕ Post| 💬 Chat | 👤│
 └─────────────────────────────────┘
 ```
 
