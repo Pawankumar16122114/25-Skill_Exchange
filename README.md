@@ -499,5 +499,4 @@ This project is licensed under the **MIT License** - See the LICENSE file for de
 ---
 
 *Last Updated: May 2, 2026 | Maintained with ❤️*
-* **Lottie Animations**
-* **Shimmer Loading**
+
